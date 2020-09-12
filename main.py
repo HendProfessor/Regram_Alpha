@@ -2,4 +2,4 @@ import eel
 
 #eel Run app
 eel.init("web")
-eel.start("main.htm", size=(500, 800))
+eel.start("main.htm", size=(800, 800))
