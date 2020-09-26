@@ -1,5 +1,9 @@
 import eel
+import server.server
+
+#Run server
+server.server.score
 
 #eel Run app
 eel.init("web")
-eel.start("main.htm", size=(800, 800))
+eel.start("message.htm", size=(800, 800))
