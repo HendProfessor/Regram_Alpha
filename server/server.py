@@ -1,7 +1,7 @@
 # Server 
 print("Starting Server")
 
-class db():
+class Redb():
     """
     Database
     """
@@ -9,12 +9,12 @@ class db():
     message = ['Hello', 'hi']
 
     
-class score():
+class Score():
     def get_message(parameter_list):
         """
         Get Message
         """        
-        print(db.username[0],db.message[0])
+#        print(db.username[0],db.message[0])
         
 
     def send_message(parameter_list):
@@ -23,4 +23,4 @@ class score():
         """
         pass
 
-score.get_message(parameter_list=1)
+Score.get_message(parameter_list=1)
