@@ -2,7 +2,7 @@ import eel
 import server.server
 
 #Run server
-server.server.score
+server.server.Server_core
 
 #eel Run app
 eel.init("web")

@@ -9,11 +9,12 @@ class Redb():
     message = ['Hello', 'hi']
 
     
-class Score():
+class Server_core():
     def get_message(parameter_list):
         """
         Get Message
         """        
+        
 #        print(db.username[0],db.message[0])
         
 
@@ -23,4 +24,4 @@ class Score():
         """
         pass
 
-Score.get_message(parameter_list=1)
+Server_core.get_message(parameter_list=1)
