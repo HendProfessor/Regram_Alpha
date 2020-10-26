@@ -15,7 +15,7 @@ class Server_core():
         Get Message
         """        
         
-#        print(db.username[0],db.message[0])
+       # print(db.username[0],db.message[0])
         
 
     def send_message(parameter_list):
