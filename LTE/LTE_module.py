@@ -1,7 +1,6 @@
 # pip install pycryptodomex
-# from Cryptodome import Hash, Random, PublicKey, Protocol, IO, Cipher, Math, Signature, SelfTest, Util
-import Cryptodome.
-
+from Cryptodome import Hash, Random, PublicKey, Protocol, IO, Cipher, Math, Signature, SelfTest, Util
+import numpy as np
 
 
 class Encryption:
@@ -20,7 +19,7 @@ class Encryption:
 
 Encryption.LTE_1
 
-wy=Hash.SHA256.new(data = b"009")
+wy= Hash.SHA256.new(data = b"009")
 print(wy.digest())
 
 #print(Encryption.LTE_1(object_data=b"WW#"))
